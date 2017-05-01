@@ -1,0 +1,3 @@
+
+   
+CREATE TABLE client_new AS SELECT `clientid`, `groupid`, `groupname`, `firstname`, `lastname`, `mobile1`, `mobile2`, `email1`, `email2`, `city`, `country`, `decription`, `company`, `identifier`, `createdby`, `date` FROM `clients` WHERE 1
